@@ -1,7 +1,12 @@
-import { StrictMode } from 'react'
+// import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import App from "./App"
+// import './index.css'
+// import App from './App.jsx'
 
 const root = createRoot(document.getElementById('root'))
-root.render(<p>Testing</p>)
+// const reactElement = <h1>Hello from JSX!</h1>
+
+root.render(
+  <App />
+)
